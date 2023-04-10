@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd568;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  padding: 50px;
+}
+.fruit-container {
+  background-color: #ffffffff;
+  border-radius: 10px;
+  height: 80vh;
+  width: 80vw;
+}
+.head {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.sub {
+  color: #ffd568;
+  font-size: 25px;
+}
+.image {
+  height: 250px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.button {
+  background-color: #007bff;
+  height: 30px;
+  width: 100px;
+  border-width: 0px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
